@@ -1,3 +1,16 @@
+实战 http://www.chinaunix.net/old_jh/17/1487796.html
+Tungsten Replicator 是一个高性能、开源的数据复制引擎，用于 MySQL、Postgres 和 Oracle 数据库。这是 Continuent 最先进的集群解决方案的核心组件之一。
+
+Tungsten Replicator 提供超越今天任何开源复制器的特性，包括：支持故障转移的全局事务 IDs，灵活的事务过滤，可扩展的事务元数据，分区，每个进程的多复制服务，高性能，简单，文档完善。
+
+
+第三方数据复制引擎--Tungsten-Replicator 主要特点：
+
+1 支持高版本MySQL向低版本复制,5.1-->5.0 
+2 支持跨数据库系统的复制,MySQL-->PgSQL 
+3 支持多主库向单台Slave的复制,Multi-Master-->Slave 
+4 G-Replicator提取数据的更新记录写到MySQL 队列表Queue;基于这个队列,可以为其他应用服务提供便利
+
 #TUNGSTEN REPLICATOR
 Copyright (C) 2015 VMware, Inc. -- Updated 6 August 2015
 
